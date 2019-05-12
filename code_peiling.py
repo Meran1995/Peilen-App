@@ -2,7 +2,7 @@ import csv
 
 BESTAND = (r'C:\Users\meran\OneDrive\Bureaublad\Python\Peilen.Lodi\voorbeeld_peiling.csv')
 
-def search_for_empty_input():
+def search_for_empty_input(row):
     van_naar = row[0]
     x_coordinatie = row[1]
     y_coordinatie = row[2]
@@ -22,5 +22,4 @@ with open(BESTAND, 'r') as csv_file:
 
     for row in csv_reader:
 
-        search_for_empty_input(#input
-        )
+        search_for_empty_input(row)
