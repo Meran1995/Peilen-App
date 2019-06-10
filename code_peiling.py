@@ -11,8 +11,6 @@ def search_for_empty_input(row):
 
     if '' == row[4]:
         print(van_naar + ' '+ x_coordinatie + '. ' + y_coordinatie + '. ' + ' Need to go back! ')
-    else:
-        print(row)
 
 
 
